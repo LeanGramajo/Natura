@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>J.L.O Inicio</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <header>
+    <h1>Natura Cosméticos J.L.O</h1>
+    <nav>
+  <a href="#productos">Productos Destacados</a>
+  <a href="productos.html" target="_blank">Ver todos los productos</a>
+  <a href="#about">Nosotros</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+  </header>
+
+  <section class="hero">
+    <h2>Descubre la belleza natural con Natura</h2>
+  </section>
+
+  <div class="container">
+
+    <section id="productos">
+  <h2 style="text-align:center;">Productos Destacados</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+    
+    <div class="carousel" id="productCarousel">
+      
+      <!-- Producto 1 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Perfume+Kaiak" alt="Perfume Kaiak" />
+        <h3>Perfume Kaiak</h3>
+        <span>$35.99</span>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Perfume+Homen" alt="Perfume Homen" />
+        <h3>Perfume Homen</h3>
+        <span>$39.99</span>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Crema+Hidratante+Corporal" alt="Crema Hidratante" />
+        <h3>Crema Hidratante Corporal</h3>
+        <span>$19.99</span>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Crema+de+Manos" alt="Crema de manos" />
+        <h3>Crema de Manos</h3>
+        <span>$8.99</span>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Maquillaje+Líquido" alt="Maquillaje" />
+        <h3>Maquillaje Líquido</h3>
+        <span>$18.99</span>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Jabón+Natural" alt="Jabón Natural" />
+        <h3>Jabón Natural</h3>
+        <span>$4.99</span>
+      </div>
+
+      <!-- Producto 7 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Aceite+Corporal" alt="Aceite Corporal" />
+        <h3>Aceite Corporal Ekos</h3>
+        <span>$22.00</span>
+      </div>
+
+      <!-- Producto 8 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Desodorante+Roll+On" alt="Desodorante" />
+        <h3>Desodorante Roll-On</h3>
+        <span>$5.99</span>
+      </div>
+
+      <!-- Producto 9 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Exfoliante+Corporal" alt="Exfoliante" />
+        <h3>Exfoliante Corporal</h3>
+        <span>$14.50</span>
+      </div>
+
+      <!-- Producto 10 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Kit+Regalo+Natura" alt="Kit Regalo" />
+        <h3>Kit Regalo Natura</h3>
+        <span>$49.99</span>
+      </div>
+
+      <!-- Producto 11 -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Shampoo+Natura" alt="Shampoo" />
+        <h3>Shampoo Revitalizante</h3>
+        <span>$14.99</span>
+      </div>
+
+    </div>
+
+    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+</section>
+
+    <section id="about" class="about">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Natura es una marca comprometida con la belleza, el bienestar y la sostenibilidad. Nuestros productos están elaborados con ingredientes naturales, libres de crueldad animal y pensados para cuidar de ti y del planeta.
+      </p>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contáctanos</h2>
+      <form>
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu correo electrónico" required />
+        <textarea rows="5" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Natura Cosméticos. Todos los derechos reservados.
+  </footer>
+  <script src="script/index.js"></script>
+</body>
